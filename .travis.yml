@@ -2,10 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy: https://peaceful-saguaro-65347.herokuapp.com/
+deploy: 
   provider: heroku
   api_key:
     secure: b+1eVL1RnOoJqInbqrNS5b53M0WQpOC3RHU+cl0OyaZaKCtAi/gKF55RoevzbngdgeONM8lLea4P6vgIbNtZw0rHcQw6uytmFSf+XnwRAedcSzu1bilIb0iXILq8dZH3MwA+LlGqEm2O4bQ/QudMybIr5aGBrsnTlj2DXkM7jtbxc02sTYsUKD10dTaNtz8BCKI6z/sPiEXhNNYjBDMD9WgyUY3iE5K9mBLfp6l1NrvL6Wvgd1fReCia0XkKYxzn3HKSrJzkS2FkTuJlt0vqcJ5Lc9PbhspeD4Ur94fzNVQfKsp+OLR9jBDdAtnAzkSdd+LRkQb8zaU0XD8P6sfWwJjyToL3kOK+V+8Zf7/QAVqQRi5YXbo9pvSZKezDBqJgHayrviEq5kuKHLABk+NlhY++HVCX3GhI5DDqp+k0hSyG2fvLHuPTMsZa1tvma2leNP0K+vVQ4faMqYO3bAW1g6QlluYY8Q39QwVAbo/ATzsMcdm/Efc81XCT57PJDzOTsOE30f8XBge6D+j/B6FoOHDG/MX+50Nf/dQ2Sa0/lr0H1WjoUEvc0xOIMc5Ijm0Rg3hrYxMOg2sg7ebPpGCBGTinwEudiIqWKd74UJ3svtJOeMfqFYkA+w/PfhCtam1ZTM1eE57MW+SYaXlm0wbjovRBDYFG8mUpALZnrByWWXI=
-  app: TravisCI-Integrative-Testing-Practice
+  app: peaceful-saguaro-65347
   on:
     repo: J-Vega/TravisCI-Integrative-Testing-Practice
